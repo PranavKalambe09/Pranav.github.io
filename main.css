@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("back3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.container {
+    background-color: rgba(44, 158, 224, 0.5);
+    margin: 2em 30em;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.app-wrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(112, 72, 255, 0),
+    rgba(175, 233, 15, 0)
+  );
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+}
+
+header input {
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 15px 0px 15px 0px;
+  border-bottom: solid 5px rgb(92, 222, 255);
+
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+header input:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.location .city{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.location .date{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.current .temp{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 300;
+    margin: 30px 0px;
+    text-shadow: 5px 8px rgba(0,0,0,0.6);
+}
+
+.current .temp span{
+    font-weight: 500;
+}
+
+.current .weather{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 3px 3px rgba(0,0,0,0.5);
+}
+
+.current .hi-low{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgba(0,0,0,0.5);
+}
