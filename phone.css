@@ -1,0 +1,26 @@
+header {
+    padding: 30px 40px 8px;
+}
+
+header input{
+    font-size: 10px;
+    max-width: 190px;
+}
+
+.container   {
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.location .city {
+    font-size: 15px;
+}
+
+main {
+    padding: 10px 10px;
+}
+
+.current .temp {
+    font-size: 60px;
+    margin: 10px 0px;
+}
